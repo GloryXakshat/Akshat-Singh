@@ -823,8 +823,8 @@ footer {
   }
 
   .profile-photo {
-    width: 80px;
-    height: 80px;
+    width: 64px;
+    height: 64px;
   }
 }
 
@@ -846,4 +846,5 @@ footer {
     align-items: flex-start;
   }
 }
+
 
