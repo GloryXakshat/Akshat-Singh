@@ -231,10 +231,11 @@ header {
 }
 
 .profile-photo {
-  width: 96px;
-  height: 96px;
-  border-radius: 999px;
+  width: 72px;       /* smaller size */
+  height: 72px;      /* smaller size */
+  border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 25%;  /* show more of your face */
   border: 2px solid var(--accent-strong);
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.9);
 }
@@ -845,3 +846,4 @@ footer {
     align-items: flex-start;
   }
 }
+
